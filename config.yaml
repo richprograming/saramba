@@ -1,0 +1,41 @@
+# SARamba - configuracao compartilhada entre scripts e pipeline
+
+regiao: "Anavilhanas (Rio Negro)"
+
+# Orbita unica: so comparamos cenas com o mesmo path + frame + direcao.
+orbita:
+  path: 68
+  frame: 90
+  direcao: DESCENDING
+
+# Todas as datas da orbita (YYYY-MM-DD). A classificacao usa so HH, entao entram tanto as
+# cenas dual-pol (HH+HV) quanto as so-HH. O HV e exportado apenas onde existe.
+datas:
+  - "2026-06-18"   # HH+HV
+  - "2026-06-30"   # so HH
+  - "2026-07-12"   # HH+HV
+  - "2026-07-24"   # so HH
+  - "2026-08-17"   # so HH
+  - "2026-08-29"   # HH+HV
+  - "2026-09-10"   # so HH
+  - "2026-09-22"   # HH+HV
+  - "2026-10-04"   # so HH
+  - "2026-10-16"   # HH+HV
+  - "2026-10-28"   # so HH
+
+# Data da imagem optica Sentinel-2 (mesmo dia da primeira cena de radar).
+optico_data: "2026-06-18"
+
+# Area de interesse, ~50 x 50 km sobre o arquipelago (lon_min, lat_min, lon_max, lat_max).
+bbox: [-61.05, -2.85, -60.60, -2.40]
+
+# Reducao de resolucao por media em potencia: 2 = pixels de 40 m (o produto vem em 20 m).
+multilook: 2
+
+# Limiares de PARTIDA em dB (calibrados depois por histograma; os usados vao para stats.json).
+limiares_db:
+  agua_aberta_hh_max: -15.0
+  floresta_alagada_hh_min: -4.0
+  k_sigma: 2.0         # floresta alagada = pico da terra firme + k_sigma desvios
+  tolerancia_db: 4.0   # o quanto a calibracao automatica pode se afastar do ponto de partida
+  incerteza_db: 0.5    # a area e recalculada com o limiar +/- este valor (faixa no grafico)

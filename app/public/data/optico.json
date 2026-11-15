@@ -1,0 +1,11 @@
+{
+  "data": "2026-06-18",
+  "fonte": "ESA Copernicus Sentinel-2 L2A (cor verdadeira, TCI), via Earth Search / AWS",
+  "cenas": [
+    "S2C_20MQB_20260618_0_L2A",
+    "S2C_20MQC_20260618_0_L2A"
+  ],
+  "nuvem_no_recorte_pct": 52.8,
+  "cobertura_do_recorte_pct": 100.0,
+  "nota": "Nuvem = classes SCL 3, 8, 9 e 10 (sombra, nuvem media/alta, cirrus)."
+}

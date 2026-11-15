@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-label="SARamba">
+  
+  <defs><clipPath id="globe"><circle cx="90" cy="110" r="60"/></clipPath></defs>
+  <g clip-path="url(#globe)">
+    <rect x="30" y="50" width="120" height="120" fill="#0B1F3A"/>
+    <path d="M30 132 C60 120 80 138 110 128 S150 122 150 124 V170 H30Z" fill="#1E8F5A"/>
+    <path d="M38 160 C70 144 62 118 90 112 S112 82 146 66" fill="none" stroke="#12C2B0" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <circle cx="90" cy="110" r="60" fill="none" stroke="#12C2B0" stroke-width="2"/>
+  <g fill="none" stroke="#FFB020" stroke-width="6" stroke-linecap="round">
+    <path d="M114.6 42.3 A72 72 0 0 1 157.7 85.4"/>
+    <path d="M119.4 29.2 A86 86 0 0 1 170.8 80.6" opacity="0.7"/>
+    <path d="M124.2 16.0 A100 100 0 0 1 184.0 75.8" opacity="0.4"/>
+  </g>
+  <text x="212" y="124" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1"><tspan fill="#12C2B0">SAR</tspan><tspan fill="#0B1F3A" font-weight="500">amba</tspan></text>
+  <text x="214" y="158" font-family="Inter, Arial, sans-serif" font-size="17" fill="#5B6B80">The hidden dance of the Amazon's waters</text>
+</svg>

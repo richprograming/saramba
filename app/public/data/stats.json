@@ -1,0 +1,288 @@
+{
+  "regiao": "Anavilhanas (Rio Negro)",
+  "orbita": {
+    "path": 68,
+    "frame": 90,
+    "direcao": "DESCENDING"
+  },
+  "bbox": [
+    -61.05,
+    -2.85,
+    -60.6,
+    -2.4
+  ],
+  "produto": "NISAR L2 GCOV (provisorio), frequencia A, gamma0 com correcao de terreno",
+  "faixa_db_png": {
+    "hh": [
+      -22.0,
+      0.0
+    ],
+    "hv": [
+      -28.0,
+      -6.0
+    ]
+  },
+  "limiares": {
+    "metodo": "agua: Otsu 2 classes no HH (dB); floresta alagada: moda da floresta nao alagada + k*sigma (sigma do lado esquerdo do pico); todas as datas juntas",
+    "ponto_de_partida": {
+      "agua_aberta_hh_max": -15.0,
+      "floresta_alagada_hh_min": -4.0
+    },
+    "calibrado_bruto": {
+      "agua_aberta_hh_max": -11.37,
+      "floresta_alagada_hh_min": -3.65
+    },
+    "usados": {
+      "agua_aberta_hh_max": -11.37,
+      "floresta_alagada_hh_min": -3.65
+    },
+    "terra_firme_moda_db": -4.84,
+    "terra_firme_sigma_db": 0.6,
+    "k_sigma": 2.0,
+    "tolerancia_db": 4.0,
+    "incerteza_db": 0.5
+  },
+  "datas": [
+    {
+      "data": "2026-06-18",
+      "cena": "NISAR_L2_PR_GCOV_023_068_D_090_2005_DHDH_A_20260618T222452_20260618T222527_P05023_N_F_J_001",
+      "pol": "DHDH",
+      "tem_hv": true,
+      "km2": {
+        "agua_aberta": 730.9,
+        "floresta_alagada": 379.2,
+        "terra_firme": 1389.9,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        279.1,
+        533.7
+      ],
+      "hh_db_mediana": -4.96
+    },
+    {
+      "data": "2026-06-30",
+      "cena": "NISAR_L2_PR_GCOV_024_068_D_090_2005_SHSH_A_20260630T222452_20260630T222526_P05023_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 732.3,
+        "floresta_alagada": 350.6,
+        "terra_firme": 1417.2,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        250.5,
+        455.4
+      ],
+      "hh_db_mediana": -5.04
+    },
+    {
+      "data": "2026-07-12",
+      "cena": "NISAR_L2_PR_GCOV_025_068_D_090_2005_DHDH_A_20260712T222451_20260712T222525_P05023_N_F_J_001",
+      "pol": "DHDH",
+      "tem_hv": true,
+      "km2": {
+        "agua_aberta": 731.2,
+        "floresta_alagada": 334.6,
+        "terra_firme": 1434.2,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        233.9,
+        434.0
+      ],
+      "hh_db_mediana": -5.21
+    },
+    {
+      "data": "2026-07-24",
+      "cena": "NISAR_L2_PR_GCOV_026_068_D_090_2005_SHSH_A_20260724T222450_20260724T222525_P05023_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 727.1,
+        "floresta_alagada": 315.8,
+        "terra_firme": 1457.1,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        214.4,
+        409.1
+      ],
+      "hh_db_mediana": -5.23
+    },
+    {
+      "data": "2026-08-17",
+      "cena": "NISAR_L2_PR_GCOV_028_068_D_090_2005_SHSH_A_20260817T222449_20260817T222523_P05023_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 705.6,
+        "floresta_alagada": 334.5,
+        "terra_firme": 1460.0,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        248.7,
+        447.0
+      ],
+      "hh_db_mediana": -4.92
+    },
+    {
+      "data": "2026-08-29",
+      "cena": "NISAR_L2_PR_GCOV_029_068_D_090_2005_DHDH_A_20260829T222449_20260829T222523_P05023_N_F_J_001",
+      "pol": "DHDH",
+      "tem_hv": true,
+      "km2": {
+        "agua_aberta": 696.4,
+        "floresta_alagada": 294.5,
+        "terra_firme": 1509.1,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        213.9,
+        395.4
+      ],
+      "hh_db_mediana": -5.01
+    },
+    {
+      "data": "2026-09-10",
+      "cena": "NISAR_L2_PR_GCOV_030_068_D_090_2005_SHSH_A_20260910T222449_20260910T222523_P05023_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 679.7,
+        "floresta_alagada": 246.1,
+        "terra_firme": 1574.2,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        159.8,
+        402.5
+      ],
+      "hh_db_mediana": -4.94
+    },
+    {
+      "data": "2026-09-22",
+      "cena": "NISAR_L2_PR_GCOV_031_068_D_090_2005_DHDH_A_20260922T222449_20260922T222523_P05023_N_F_J_001",
+      "pol": "DHDH",
+      "tem_hv": true,
+      "km2": {
+        "agua_aberta": 676.1,
+        "floresta_alagada": 92.4,
+        "terra_firme": 1731.5,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        47.4,
+        190.2
+      ],
+      "hh_db_mediana": -5.09
+    },
+    {
+      "data": "2026-10-04",
+      "cena": "NISAR_L2_PR_GCOV_032_068_D_090_2005_SHSH_A_20261004T222449_20261004T222523_P05023_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 673.6,
+        "floresta_alagada": 51.2,
+        "terra_firme": 1775.3,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        24.2,
+        132.1
+      ],
+      "hh_db_mediana": -5.08
+    },
+    {
+      "data": "2026-10-16",
+      "cena": "NISAR_L2_PR_GCOV_033_068_D_090_2005_DHDH_A_20261016T222449_20261016T222523_P05023_N_F_J_001",
+      "pol": "DHDH",
+      "tem_hv": true,
+      "km2": {
+        "agua_aberta": 677.7,
+        "floresta_alagada": 41.8,
+        "terra_firme": 1780.4,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        19.8,
+        114.2
+      ],
+      "hh_db_mediana": -5.11
+    },
+    {
+      "data": "2026-10-28",
+      "cena": "NISAR_L2_PR_GCOV_034_068_D_090_2005_SHSH_A_20261028T222449_20261028T222524_P05036_N_F_J_001",
+      "pol": "SHSH",
+      "tem_hv": false,
+      "km2": {
+        "agua_aberta": 679.1,
+        "floresta_alagada": 29.6,
+        "terra_firme": 1791.3,
+        "sem_dado": 0.0
+      },
+      "floresta_alagada_faixa_km2": [
+        14.0,
+        65.9
+      ],
+      "hh_db_mediana": -5.49
+    }
+  ],
+  "transicao": {
+    "de": "2026-06-18",
+    "ate": "2026-10-28",
+    "km2": {
+      "segue_alagada": 19.1,
+      "alagada_para_terra_firme": 360.1,
+      "agua_aberta_recuou": 57.7,
+      "passou_a_agua_ou_alagada": 16.0
+    }
+  },
+  "duracao": {
+    "n_datas": 11,
+    "km2_por_contagem": [
+      1933.4,
+      98.4,
+      64.4,
+      58.8,
+      64.0,
+      71.2,
+      85.2,
+      85.2,
+      21.1,
+      9.0,
+      5.2,
+      4.1
+    ],
+    "km2_alguma_vez": 566.6,
+    "rampa_rgb": [
+      [
+        254,
+        240,
+        170
+      ],
+      [
+        18,
+        194,
+        176
+      ],
+      [
+        20,
+        70,
+        160
+      ]
+    ]
+  },
+  "serie": {
+    "arquivo": "serie_hh.bin",
+    "largura": 313,
+    "altura": 311,
+    "fator": 4,
+    "db_min": -25.0,
+    "db_max": 0.0,
+    "nota": "uint8 por pixel, uma camada por data na ordem de `datas`; 0 = sem dado; dB = db_min + (v - 1) / 254 * (db_max - db_min)"
+  }
+}

@@ -1,0 +1,27 @@
+# Dados brutos (HDF5 de mais de 1 GB): nunca commitar
+/data/*
+!/data/cota_manual.csv
+/dados/
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Node
+node_modules/
+app/dist/
+
+# Notas de trabalho locais (nao fazem parte do projeto publicado)
+/CLAUDE.md
+/docs/submission/fields.md
+/docs/submission/CHECKLIST.md
+/docs/submission/demo-script.md
+.taste-skill/
+
+# Segredos
+.env
+.netrc
+_netrc

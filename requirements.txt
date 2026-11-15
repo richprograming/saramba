@@ -1,0 +1,12 @@
+asf_search>=14
+h5py>=3.11
+numpy>=2.0
+scipy>=1.13
+scikit-image>=0.24
+pyproj>=3.6
+rasterio>=1.4
+pillow>=10
+PyYAML>=6
+requests>=2.31
+fsspec>=2024.6
+aiohttp>=3.9
